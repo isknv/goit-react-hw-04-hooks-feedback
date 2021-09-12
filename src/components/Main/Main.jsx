@@ -10,7 +10,6 @@ export default function Main() {
   const [bad, setBad] = useState(0);
 
   const leaveFeedback = event => {
-    // const name = event.target.name;
     switch (event) {
       case "good":
         setGood(prev => prev + 1);
